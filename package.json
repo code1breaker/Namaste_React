@@ -1,0 +1,22 @@
+{
+  "name": "reactjs",
+  "version": "1.0.0",
+  "description": "Namaste React Live Course Practice",
+  "main": "App.js",
+  "scripts": {
+    "start": "parcel ./public/index.html",
+    "build": "parcel biuld ./public/index.html",
+    "test": "jest"
+  },
+  "author": "Manish Chyaunal",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.0"
+  }
+}

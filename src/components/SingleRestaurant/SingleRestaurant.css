@@ -1,0 +1,81 @@
+.restBanner {
+  background: rgb(248, 248, 248);
+  padding: 3rem 0rem;
+}
+.restBanner > div {
+  align-items: center;
+}
+.restImg {
+  width: 20rem;
+}
+.restInfo {
+  margin-left: 5rem;
+}
+.restInfo h2 {
+  font-size: 2.5rem;
+  font-weight: 530;
+  margin-bottom: 0.5rem;
+}
+.restInfo p,
+span {
+  font-size: 1.2rem;
+  margin-bottom: 0.2rem;
+}
+.infoDetail {
+  margin-top: 1.2rem;
+}
+.infoDetail span {
+  font-size: 1.2rem;
+}
+.infoDetail p {
+  font-size: 1rem;
+  letter-spacing: -1px;
+}
+
+.line {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+
+  margin: 0rem 1.2rem;
+  padding: 0rem 1.2rem;
+}
+.category {
+  padding: 2rem;
+  text-align: right;
+}
+.category ul li {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.menu {
+  width: 30%;
+}
+.menuItem {
+  padding: 2rem 0rem;
+  align-items: center;
+}
+.menuItem h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.menuItem p {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+.menuImg {
+  position: relative;
+  cursor: pointer;
+  width: 9rem;
+  height: 7rem;
+}
+.menuImg img {
+  width: 9rem;
+  height: 7rem;
+}
+.addBtn {
+  padding: 0.5rem 2rem;
+  position: absolute;
+  bottom: 0;
+  left: 15%;
+  cursor: pointer;
+}

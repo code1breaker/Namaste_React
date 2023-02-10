@@ -1,0 +1,15 @@
+header {
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 1rem;
+}
+nav ul {
+  align-items: center;
+}
+nav ul li {
+  padding: 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}

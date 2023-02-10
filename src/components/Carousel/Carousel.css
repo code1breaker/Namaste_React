@@ -1,0 +1,24 @@
+.carouselCard {
+  width: 20rem;
+  cursor: pointer;
+}
+.carouselCard:hover {
+  scale: 1.05;
+  transition: all 0.2s linear;
+}
+.next-btn,
+.right-btn {
+  position: absolute;
+  top: 8rem;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 1;
+}
+.next-btn {
+  right: -2rem;
+}
+.right-btn {
+  left: -2rem;
+}

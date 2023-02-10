@@ -1,0 +1,8 @@
+/* carousel */
+.carousel {
+  background: rgb(248, 248, 248);
+  padding: 5rem 0rem;
+}
+.carousel > div {
+  position: relative;
+}

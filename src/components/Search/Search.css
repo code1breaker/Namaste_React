@@ -1,0 +1,15 @@
+.srch {
+  justify-content: center;
+  margin-top: 2rem;
+}
+.srch input {
+  width: 32%;
+  padding: 0.8rem 1.5rem;
+  border-radius: 2rem;
+}
+.srch button {
+  padding: 0.8rem 1.5rem;
+  margin-left: 1rem;
+  cursor: pointer;
+  border-radius: 2rem;
+}

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 import "./Body.css";
 import Search from "../Search/Search";
@@ -6,15 +6,15 @@ import Carousel from "../Carousel/Carousel";
 import RestaurantCard from "../RestaurantCard/RestaurantCard";
 import { FETCH_URL } from "../../utils/constant";
 
-import useRestaurant from "../../utils/useRestaurant";
 import HomeShimmer from "../Shimmer/HomeShimmer";
+
+import useRestaurant from "../../utils/useRestaurant";
 
 const Body = () => {
   const restaurant = useRestaurant(FETCH_URL);
-  const [getRestaurant, setGetRestaurant] = useState(restaurant);
-  // console.log(getRestaurant);
+  const [getRestaurant, setGetRestaurant] = useState([]);
 
-  return !getRestaurant ? (
+  return getRestaurant?.length === 0 ? (
     <HomeShimmer />
   ) : (
     <>
@@ -24,7 +24,7 @@ const Body = () => {
       </section>
       <Search setGetRestaurant={setGetRestaurant} />
       <section className="container flex restaurant">
-        <RestaurantCard restaurant={getRestaurant} />
+        <RestaurantCard restaurant={restaurant} />
       </section>
     </>
   );
@@ -34,6 +34,6 @@ const Body = () => {
 export default Body;
 
 // useRestaurant ✅
-// search functionality
+// lazyloading-instamart ✅
 // useOnline
-// lazyloading-instamart
+// search functionality 🔴

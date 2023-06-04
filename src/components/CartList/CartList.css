@@ -1,0 +1,43 @@
+.cartList {
+  padding: 2rem;
+  position: sticky;
+  top: 0;
+}
+.cartList h1 {
+  font-size: 2.2rem;
+  color: slategrey;
+  margin-bottom: 2rem;
+}
+.cartList-details {
+  box-shadow: 0 3px 8px #0000003d;
+  padding: 1rem;
+  margin: 1.2rem 0;
+}
+.cartList-details p:nth-child(1) {
+  width: 40%;
+}
+.cartList-details p:nth-child(2) {
+  width: 15%;
+}
+.cartList-details p:nth-child(3) {
+  width: 25%;
+}
+.cartList-details p:nth-child(4) {
+  cursor: pointer;
+}
+.cartList .amount {
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+}
+.cartList .pay {
+  width: 100%;
+  font-size: 1.1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 991px) {
+  .cartList h1 {
+    font-size: 2rem;
+  }
+}

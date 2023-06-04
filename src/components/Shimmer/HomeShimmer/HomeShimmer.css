@@ -1,0 +1,52 @@
+.shimmerCarouselCard {
+  width: 20rem;
+  height: 20rem;
+}
+.shimmerCard {
+  width: 20rem;
+  height: 20rem;
+  margin: 1rem 1rem;
+  padding: 1.5rem;
+}
+.shimmerImg {
+  width: 100%;
+  height: 11rem;
+}
+
+@media screen and (max-width: 1199px) {
+  /* carousel */
+  .shimmerCarouselCard {
+    width: 16rem;
+    height: 16rem;
+  }
+  /* card */
+  .shimmerCard {
+    width: 18rem;
+    height: 23rem;
+    margin: 1.2rem 1rem;
+  }
+}
+@media screen and (max-width: 991px) {
+  /* carousel */
+  .shimmerCarouselCard {
+    width: 12rem;
+    height: 12rem;
+  }
+  /* card */
+  .shimmerCard {
+    height: 24rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .shimmerCarouselCard {
+    width: 10rem;
+    height: 10rem;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .shimmerCard {
+    width: 21rem;
+  }
+}

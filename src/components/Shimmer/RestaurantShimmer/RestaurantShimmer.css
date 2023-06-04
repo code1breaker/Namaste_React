@@ -1,0 +1,39 @@
+.shimmerRestImg {
+  width: 20rem;
+  height: 12rem;
+}
+.shimmerRestInfo {
+  width: 20rem;
+  height: 12rem;
+  margin-left: 5rem;
+}
+.shimmerList {
+  flex-direction: column;
+  align-items: end;
+}
+.shimmerCart {
+  width: 30%;
+  padding: 2rem;
+}
+
+@media screen and (max-width: 767px) {
+  .category,
+  .shimmerCart {
+    display: none;
+  }
+  .menu {
+    width: 100%;
+  }
+  .restImg {
+    width: 18rem;
+  }
+  .restInfo {
+    margin-left: 3rem;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .restBanner {
+    display: none;
+  }
+}

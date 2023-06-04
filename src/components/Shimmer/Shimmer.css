@@ -1,0 +1,32 @@
+.shimmer {
+  background-color: rgb(199, 199, 199);
+}
+.shimmer-title {
+  height: 1.25rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.shimmer-text {
+  height: 0.75rem;
+}
+.shimmer-width-100 {
+  width: 100%;
+}
+.shimmer-width-50 {
+  width: 50%;
+}
+.shimmer-width-20 {
+  width: 20%;
+}
+
+@keyframes pulse {
+  20% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}

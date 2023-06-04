@@ -1,0 +1,73 @@
+.carouselCard {
+  width: 20rem;
+  cursor: pointer;
+}
+.carouselCard:hover {
+  scale: 1.05;
+  transition: all 0.2s linear;
+}
+.next-btn,
+.right-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 1;
+  border: 1px solid black;
+}
+.next-btn {
+  right: -2rem;
+}
+.right-btn {
+  left: -2rem;
+}
+
+@media only screen and (max-width: 1199px) {
+  .next-btn,
+  .right-btn {
+    width: 3rem;
+    height: 3rem;
+  }
+  .next-btn {
+    right: -1.5rem;
+  }
+  .right-btn {
+    left: -1.5rem;
+  }
+  .carouselCard {
+    width: 16rem;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .next-btn,
+  .right-btn {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .next-btn {
+    right: -1.2rem;
+  }
+  .right-btn {
+    left: -1.2rem;
+  }
+  .carouselCard {
+    width: 12rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .next-btn {
+    right: 0.8rem;
+  }
+  .right-btn {
+    left: 0.8rem;
+  }
+
+  .carouselCard {
+    width: 10rem;
+  }
+}

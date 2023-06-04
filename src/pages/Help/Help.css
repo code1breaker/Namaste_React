@@ -1,0 +1,23 @@
+.help-title {
+  font-size: 2rem;
+}
+.faq {
+  margin: 1.5rem 0rem;
+  border: 1px solid black;
+  padding: 1rem;
+}
+.txt-ques {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.txt-ans {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+
+.faq-btn {
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}

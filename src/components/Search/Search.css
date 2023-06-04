@@ -1,0 +1,29 @@
+.srch {
+  justify-content: center;
+  margin-top: 2rem;
+}
+.srch input {
+  width: 32%;
+  padding: 0.8rem 1.5rem;
+  border-radius: 2rem;
+  border: 2px solid black;
+  outline: none;
+}
+.srch button {
+  padding: 0.8rem 1.5rem;
+  margin-left: 1rem;
+  cursor: pointer;
+  border-radius: 2rem;
+  border: 1px solid black;
+}
+
+@media only screen and (max-width: 1199px) {
+  .srch input {
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .srch input {
+    width: 60%;
+  }
+}

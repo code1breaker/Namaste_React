@@ -1,0 +1,86 @@
+header {
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 1rem;
+}
+nav ul {
+  align-items: center;
+}
+nav ul li {
+  padding: 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.cart-len {
+  display: inline-block;
+  width: 1.2rem;
+  height: 1.2rem;
+  color: white;
+  background-color: #60b246;
+  margin-left: 0.5rem;
+}
+
+.user {
+  width: 1.8rem;
+  cursor: pointer;
+  margin-left: 2.5rem;
+  position: relative;
+}
+.user-profile {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 1rem;
+  position: absolute;
+  right: 4%;
+  top: 5%;
+  z-index: 1;
+  display: none;
+}
+.user-info {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.user-details {
+  font-size: 1.2rem;
+}
+
+.user:hover + .user-profile {
+  display: block;
+}
+.hamburger {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  header {
+    padding: 0.5rem 2rem !important;
+  }
+  nav ul {
+    flex-direction: column;
+    position: absolute;
+    top: 5vh;
+    right: 0;
+    z-index: 2;
+    background-color: lightgrey;
+    width: 100%;
+  }
+  .nav-hidden {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    margin-left: 1rem;
+    align-items: center;
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  header {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  }
+}

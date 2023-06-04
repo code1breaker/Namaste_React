@@ -1,0 +1,52 @@
+.restaurant {
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* card */
+.card {
+  width: 21rem;
+  height: fit-content;
+  margin: 1rem 1rem;
+  cursor: pointer;
+  padding: 1.5rem;
+}
+.card:hover {
+  border: 2px solid white;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.list {
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.rating {
+  display: inline-block;
+  padding: 0.3rem 1rem;
+  background-color: rgb(80, 194, 80);
+  color: white;
+  font-size: 1rem;
+}
+.price {
+  font-size: 1.1rem;
+  display: inline-block;
+}
+.offer {
+  margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 1199px) {
+  .card {
+    width: 18rem;
+    margin: 1.2rem 1rem;
+  }
+}
+@media screen and (max-width: 575px) {
+  .card {
+    width: fit-content;
+  }
+}

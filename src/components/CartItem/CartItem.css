@@ -1,0 +1,31 @@
+.cart-card {
+  margin: 1rem 0rem;
+  background-color: white;
+  padding: 1.5rem;
+  position: relative;
+}
+
+.cart-card > img {
+  width: 15rem;
+}
+
+.cart-details {
+  flex-direction: column;
+  justify-content: center;
+  margin: 0rem 2rem;
+}
+
+.cart-details p {
+  margin: 0.5rem 0rem;
+}
+
+.cross {
+  width: 1rem;
+  position: absolute;
+  top: 10%;
+  right: 3%;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 991px) {
+}
